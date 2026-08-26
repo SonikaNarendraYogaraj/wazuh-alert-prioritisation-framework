@@ -1,18 +1,2 @@
-host,criticality,tier,notes
-inet-firewall,1.0,Critical,Perimeter firewall - the gateway to the whole network
-webserver,1.0,Critical,Public-facing web server
-wazuh-server,1.0,Critical,SIEM / security monitoring server (live-lab)
-wazuh.manager,1.0,Critical,Wazuh manager (live-lab)
-intranet-server,0.9,High,Internal application server
-internal-share,0.9,High,File share holding sensitive data
-vpn,0.9,High,Remote-access gateway
-cloud-share,0.8,High,Cloud storage sync host
-mail,0.7,High,Central mail server
-victim-ubuntu,0.7,Medium,Monitored Linux endpoint (live-lab)
-taylorcruz-mail,0.6,Medium,Individual user mail host
-whittaker-mail,0.6,Medium,Individual user mail host
-jonesmorgan-mail,0.6,Medium,Individual user mail host
-miller-mail,0.6,Medium,Individual user mail host
-wazuh-client,0.5,Medium,Generic monitored endpoint
-guest-wifi-laptop,0.2,Low,Example - guest / low-value device (edit or remove)
-test-vm,0.2,Low,Example - test machine (not production) - edit or remove
+host,criticality
+victim-ubuntu,0.70
